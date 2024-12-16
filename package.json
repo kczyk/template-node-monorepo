@@ -1,0 +1,13 @@
+{
+  "name": "template-node-monorepo",
+  "private": true,
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=starter-ts\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
