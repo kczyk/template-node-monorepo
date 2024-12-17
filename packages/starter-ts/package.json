@@ -4,8 +4,11 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon --watch 'src/**/*.ts' --exec tsx src/index.ts",
+    "dev": "nodemon --watch src --exec tsx src/index.ts",
     "format": "prettier --write ."
+  },
+  "nodemonConfig": {
+    "ext": "ts"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
