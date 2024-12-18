@@ -5,6 +5,7 @@
     "./packages/*"
   ],
   "scripts": {
+    "build": "npm run build --workspaces",
     "dev": "concurrently \"npm run dev --workspace=starter-ts\""
   },
   "devDependencies": {

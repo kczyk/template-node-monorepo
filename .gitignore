@@ -1,3 +1,6 @@
+# This .gitignore file is based on the Node.gitignore template from GitHub's gitignore repository.
+# See: https://github.com/github/gitignore/blob/e3e08c58b842beefa27d15e38b585c39c8ea6dba/Node.gitignore
+
 # Logs
 logs
 *.log
@@ -128,3 +131,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# End of the Node.gitignore template
+
+build/
