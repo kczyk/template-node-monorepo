@@ -14,13 +14,13 @@
     "@tsconfig/node22": "^22.0.2",
     "@tsconfig/strictest": "^2.0.5",
     "@types/ejs": "^3.1.5",
-    "@types/node": "^22.15.29",
+    "@types/node": "^24.0.3",
     "autoprefixer": "^10.4.21",
     "nodemon": "^3.1.10",
-    "postcss": "^8.5.4",
+    "postcss": "^8.5.6",
     "prettier": "^3.5.3",
-    "tailwindcss": "^4.1.8",
-    "tsx": "^4.19.4",
+    "tailwindcss": "^4.1.10",
+    "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   },
   "dependencies": {
@@ -30,7 +30,7 @@
     "@fastify/view": "^11.1.0",
     "dotenv": "^16.5.0",
     "ejs": "^3.1.10",
-    "fastify": "^5.3.3",
+    "fastify": "^5.4.0",
     "fastify-plugin": "^5.0.1"
   }
 }
